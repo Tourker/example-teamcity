@@ -2,7 +2,7 @@ package plaindoll;
 
 public class Welcomer{
         public String sayHello() {
-                return "Hi, hi, hi, you are the best hunter"";
+                return "Hi, hi, hi, you are the best hunter";
         }
 	public String sayWelcome() {
 		return "Welcome home, good hunter. What is it your desire?";
