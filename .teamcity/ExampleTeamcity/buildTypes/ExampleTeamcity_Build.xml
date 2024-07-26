@@ -3,6 +3,10 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="target/original-plaindoll-0.2.0.jar&#xA;target/plaindoll-0.2.0.jar" />
+      <option name="publishArtifactCondition" value="SUCCESSFUL" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="Maven2" name="clean test" type="Maven2">
